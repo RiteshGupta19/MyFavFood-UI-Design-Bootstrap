@@ -1,0 +1,71 @@
+*,body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+background: url(istockphoto-1829241109-612x612.jpg);
+background-repeat: no-repeat;
+background-size:cover;
+position: relative;
+
+}
+
+.wi{
+  position: absolute ;
+  top: 250%;
+  left: 60%;
+  background-color:transparent;
+  backdrop-filter: blur(10px);
+}
+.wii{
+  width: 35%;
+}
+.bt{
+  width: 25%;
+}
+h1{
+  background: linear-gradient(to left, Violet,  Indigo,Blue, Green,Yellow,Orange, Red); 
+ -webkit-text-fill-color: transparent; 
+ -webkit-background-clip: text; 
+}
+p{
+  background: linear-gradient(to right, rgb(235, 5, 235),rgb(5, 5, 228),rgb(181, 181, 3), rgb(203, 4, 4)); 
+  -webkit-text-fill-color: transparent; 
+  -webkit-background-clip: text; 
+}
+@media (max-width:650px){
+  
+  .wii{
+    width: 95%;
+  }
+  .wi{
+    top: 230%;
+    left: 3%;
+  }
+  .bt{
+    width: 48%;
+  }
+  .fs{
+    font-size: 14px;
+  }
+}
+@media (min-width:649px) and  (max-width:992px){
+  .wii{
+    width: 50%;
+  }
+  .wi{
+    left: 35%;
+  }
+  .bt{
+    width: 40%;
+  }
+}
+@media  (min-width:991px) and (max-width:1300px){
+  .wii{
+    width: 50%;
+  }
+  .wi{
+    left: 40%;
+  }
+}
